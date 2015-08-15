@@ -1,6 +1,6 @@
 import Adafruit_DHT
 from time import sleep
-from AdafruitModules.Adafruit_7Segment import SevenSegment
+from AdafruitLEDBackpackModules.Adafruit_LEDBackpack.Adafruit_7Segment import SevenSegment
 
 segment = SevenSegment(address=0x70)
 
