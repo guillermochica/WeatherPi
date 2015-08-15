@@ -1,4 +1,5 @@
 #!/usr/bin/python
+###Simple test for the temperature functionality
 from time import sleep
 import sys
 import Adafruit_DHT
