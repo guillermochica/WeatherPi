@@ -1,6 +1,5 @@
 ### Module for collecting and displaying humidity values
 import Adafruit_DHT
-from time import sleep
 from AdafruitLEDBackpackModules.Adafruit_LEDBackpack.Adafruit_7Segment import SevenSegment
 
 segment = SevenSegment(address=0x70)
@@ -18,7 +17,3 @@ def displayHumidity():
 	segment.writeDigit(1,int(humidity/10))
 	segment.writeDigit(3,int(humidity%10),True)
 	segment.writeDigit(4,int((humidity*10))%10)
-def runHumidity():
-	while True:
-		displayHumidity()
-		sleep(60)

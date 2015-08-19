@@ -1,5 +1,4 @@
 import Adafruit_DHT
-from time import sleep
 from AdafruitLEDBackpackModules.Adafruit_LEDBackpack.Adafruit_7Segment import SevenSegment
 
 segment = SevenSegment(address=0x70)
@@ -18,7 +17,3 @@ def displayTemperature():
    	segment.writeDigit(1,int(temperature%10),True)
    	segment.writeDigit(3,int((temperature*10))%10)
    	segment.writeDigitRaw(4,0x63) #turn on ABFG
-def runTemperature():
-	while True:
-		displayTemperature()
-		sleep(60)
