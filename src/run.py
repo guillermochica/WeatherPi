@@ -32,6 +32,7 @@ try:
 			Clock.displayTime()
 except KeyboardInterrupt:
 	print '\nGoodbye...'
+finally:
 	if current_state == STATES['T']:
 		Temperature.segment.__init__()
 	elif current_state == STATES['H']:
