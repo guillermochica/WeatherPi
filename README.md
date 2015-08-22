@@ -40,7 +40,7 @@ You can test the sensor using the temperature.py script that is inside the test 
 
   `sudo python setup.py install`
 
-####Run it
+####Run it:
 `cd src`
   
 `sudo ./run.py [T|H|C]` Write T if you want to start with Temperature mode, H for humidity mode and C for clock.
