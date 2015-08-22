@@ -10,6 +10,8 @@ A project for a Weather Station using Raspberry Pi that will display temperature
 
 -Adafruit 0.56 4-Digit 7-Segment Display.
 
+-A button to switch between states.
+
 ####Setup:
 
 * Install Adafruit DHT library to controll the sensor:
@@ -39,6 +41,8 @@ You can test the sensor using the temperature.py script that is inside the test 
   `cd RPi.GPIO-0.5.11`
 
   `sudo python setup.py install`
+
+And wire it like this: one pin to ground, the other pin 22 (BCM notation).
 
 ####Run it:
 `cd src`
