@@ -3,7 +3,7 @@ A mini weather station with Raspberry Pi
 
 A project for a Weather Station using Raspberry Pi that will display temperature, humidity and time using DHT22 and Adafruit 0.56 4-Digit 7-Segment Display.
 
-####Equiptment:
+####Equipment:
 -Raspberry Pi
 
 -DHT22 Sensor (although others such as DHT11 or AM2302 may be valid changing a little bit the code)
@@ -41,8 +41,8 @@ You can test the sensor using the temperature.py script that is inside the test 
   `sudo python setup.py install`
 
 ####Run it
-  `cd src`
+`cd src`
   
-  `sudo ./run.py [T|H|C]` Write T if you want to start with Temperature mode, H for humidity mode and C for clock.
+`sudo ./run.py [T|H|C]` Write T if you want to start with Temperature mode, H for humidity mode and C for clock.
 
 Push the button to switch between states.
