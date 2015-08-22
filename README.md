@@ -42,7 +42,7 @@ You can test the sensor using the temperature.py script that is inside the test 
 
   `sudo python setup.py install`
 
-And wire it like this: one pin to ground, the other pin 22 (BCM notation).
+  And wire it like this: one pin to ground, the other pin 22 (BCM notation).
 
 ####Run it:
 `cd src`
